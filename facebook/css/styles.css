@@ -1,0 +1,43 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#fff;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px}
+input,textarea,select,[type="button"],[type="submit"],[type="reset"],button{-webkit-appearance:none;border-radius:5px;border:1px solid #ddd;box-sizing:border-box;font-size:inherit;font-family:inherit;padding:.5em}
+input[disabled],textarea[disabled],select[disabled],[disabled][type="button"],[disabled][type="submit"],[disabled][type="reset"],button[disabled]{opacity:.5}
+[type="button"],[type="submit"],[type="reset"],button{background-color:#f1f1f1;cursor:pointer}
+[type="button"][disabled],[type="submit"][disabled],[type="reset"][disabled],button[disabled]{cursor:default}
+a{color:#2458a1;text-decoration:none}
+a:hover{text-decoration:underline}
+.emoji,form.stacked input.emoji-copy{font-weight:normal;font-family:"Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols","EmojiOne Mozilla"}
+body>header{background-color:#91ccec;padding:20px 0}
+h1{font-size:22px;margin-bottom:10px}
+h2{font-size:20px;margin-bottom:10px}
+h3{font-size:1em;font-weight:bold;margin-bottom:10px}
+h2,h4{font-weight:300}
+.content{max-width:800px;width:100%;padding:0 20px;margin:0 auto}
+.content p,.content ul,.content ol,.content pre{margin-bottom:1em;line-height:1.5em}
+.content ul{list-style:none}
+.content img{max-width:100%}
+body>.content{padding-top:20px}
+.emoji-grid{margin:0 0 1em -10px}
+.emoji-grid li{width:36px;display:inline-block;margin:0 0 15px 10px}
+.emoji-grid img{max-width:36px;max-height:36px}
+.emoji-grid input{max-width:36px;font-size:11px;font-weight:700;line-height:14px;padding:2px 4px;border-radius:2px;border:1px solid #d1d1d1}
+body>footer{background:#d6d2e4;color:#5d5a65;font-size:14px;text-align:center;overflow:auto}
+body>footer p{margin:20px 0}
+@media only screen and (min-width:900px){
+h1{font-size:28px;margin-bottom:10px}
+h2{font-size:22px;margin-bottom:10px}
+body>.content{padding-top:40px}
+}
