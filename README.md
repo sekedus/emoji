@@ -5,7 +5,7 @@ Emoji from emojipedia.org for different sizes.
   - Google (Android)
   - Twitter
   - EmojiOne
-  - Facebook
+  - [Facebook](https://rawgit.com/sekedus/emoji/master/facebook/index.html)
   - Messenger (from Facebook)
   - Windows
   - LG
