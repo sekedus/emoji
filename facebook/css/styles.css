@@ -31,11 +31,12 @@ h2,h4{font-weight:300}
 .content img{max-width:100%}
 body>.content{padding-top:20px}
 .emoji-grid{margin:0 0 1em -10px}
-.emoji-grid li{width:36px;display:inline-block;margin:0 0 15px 10px}
-.emoji-grid img{max-width:36px;max-height:36px}
-.emoji-grid input{max-width:36px;font-size:11px;font-weight:700;line-height:14px;padding:2px 4px;border-radius:2px;border:1px solid #d1d1d1}
+.emoji-grid li{width:38px;display:inline-block;margin:0 0 15px 10px;text-align:center;cursor:pointer;position:relative}
+.emoji-grid li .text-copy{position:absolute;top:0;left:0;background:#999;color:#fff;padding:6px 0;width:100%;font-size:8px;text-align:center}
+.emoji-grid li img{max-width:36px;max-height:36px}
+.emoji-grid li input{max-width:38px;font-size:11px;font-weight:700;line-height:14px;padding:2px 4px;border-radius:2px;border:1px solid #d1d1d1}
 body>footer{background:#d6d2e4;color:#5d5a65;font-size:14px;text-align:center;overflow:auto}
-body>footer p{margin:20px 0}
+body>footer .content{margin:0 auto;padding:20px 0}
 @media only screen and (min-width:900px){
 h1{font-size:28px;margin-bottom:10px}
 h2{font-size:22px;margin-bottom:10px}
